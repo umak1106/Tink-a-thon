@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>*{font-family: 'Nunito', sans-serif;}
+    section{ width  : 90% ; margin : auto ; margin-top :120px;}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class = "blue lighten-2">
+        <div class="nav-wrapper container">
+          <a  class="brand-logo ">Aqua</a>
+          <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="blog.html">Blog</a></li>
+
+            <li><a href="i.html">Irrigation predictor</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="blog.html">Blog</a></li>
+
+            <li><a href="i.html">Irrigation predictor</a></li>    
+      </ul> 
+
+      <div class="carousel responsive-img ">
+        <a class="carousel-item" ><img src="./static/images/a.jpeg"></a>
+        <a class="carousel-item" ><img src="./static/images/b.jpeg"></a>
+        <a class="carousel-item" ><img src="./static/images/c.jpeg"></a>
+       
+        
+      </div>
+      
+      <section>
+        <div id= "WE">
+         <h2 class = "center-align">Water Requirement for irrigation predictor</h2>
+         <div class="row">
+           <div class="grid-example col s4 l4 m4 offset-l4 offset-m4 offset-s4"><hr></div>
+           <div class = "row">
+             <div class = "col m6 s12">
+               <img class="  responsive-img hoverable" src="./static/images/photo.jpeg">
+ 
+ 
+             </div>
+             <div class = "row">
+               <div class = "col m6 s12">
+                 <p class = "left-align black-text"><h4> 
+                    Many a times its often observed that even though in the presence of sufficient moisture quantity and 
+                    and proper temperature the water pumps in field are kept on which cause heavy wastage of water . With the help of our 
+                    ml model it is posssible to predict whether it is necessary to keep the water pumps on.
+                   
+                     </h4>
+                 </p>
+ 
+                   <a  href = "i.html" class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Irrigation Predictor</a>
+ 
+             </div> </div> </section>
+              <section><div id="W2">
+             <h2 class = "center-align">Know more on water conservation</h2>
+         <div class="row">
+           <div class="grid-example col s4 l4 m4 offset-l4 offset-m4 offset-s4"><hr></div>
+           <div class = "row">
+             <div class = "col m6 s12">
+               <img class="  responsive-img hoverable" src="./static/images/photo1.jpeg">
+ 
+ 
+             </div>
+             <div class = "row">
+               <div class = "col m6 s12">
+                 <p class = "left-align black-text"><h4> 
+                    Visit some of the best blogs on water conservation and know more .
+                    "NO water no life "<br>
+                    "No blue no green "<br>
+                    It comes as no surprise that water is one of the most 
+                    essential elements for the survival of any lifeform on the surface of Earth.
+                     The presence of water is what makes Earth different from any other planet. The need
+                      to maintain the constant flow of water comes from its vitality for the survival of all
+                       flora and fauna on the Earth . Saving water is not only a
+                        necessity for humans, our careless waste of water is also affecting the animals and plants around us. 
+                        
+
+                   
+                     </h4>
+                 </p>
+ 
+                   <a  href = "blog.html" class="waves-effect waves-light btn"><i class="material-icons left">book</i>Blog</a>
+ 
+             </div>
+ 
+ 
+ 
+ 
+        </div>
+ 
+      </section>
+      
+
+      <script>
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.carousel').carousel();
+   
+    
+  });
+      </script>
+</body>
+</html>
